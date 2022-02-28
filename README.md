@@ -6,8 +6,8 @@ MIC 21 Dataset
 ```
 -thematic_field_name
   - data
-    - image 1
-    - image 2
+    - image_1.jpg
+    - image_2.png
     ...
   thematic_field_name_gt.json
 ```
