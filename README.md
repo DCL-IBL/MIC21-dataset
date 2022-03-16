@@ -1,7 +1,7 @@
 MIC21 image processing pipeline
 ========
 
-[MIC21 Dataset](https://dcl.bas.bg/MIC-21/dataset/) contains images from 130 thematic domains together with their ground truth annotations represented in MS COCO format. The structure of the dataset is as follows:
+[MIC21 image processing pipeline](https://dcl.bas.bg/MIC-21/dataset/) contains images from 130 thematic domains together with their ground truth annotations represented in MS COCO format. The structure of the dataset is as follows:
 
 ```
 -thematic_field_name
