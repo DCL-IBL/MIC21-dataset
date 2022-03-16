@@ -20,38 +20,30 @@ The repository contains also some utility scripts which can help to interact wit
 
 add_new_cat_labels.py - insert for the newly added datasets
 
-annotated_by_categories.py
+annotated_by_categories.py - list annotatated images by category name and store them into a file on disk
 
-links_to_images.py
+links_to_images.py - list a hyper-links to images in the database according to their thematic field
 
-annotations_by_folder.py
+annotations_by_folder.py - list annotated images by thematic field
 
-list_of_images.py
+list_of_images.py - contains various quieries for the database giving a statistical overview for the annotated images
 
-check_cat_consistency.py
+merge_dsets.py - merge two thematic fields into a single one
 
-compare_coco.py
+move_category_between_dsets.py - move all images having annotations from a specfic category between datasets
 
-merge_dsets.py
+move_image_between_dsets.py - move one or several images from one thematic field to another, together with their associated annotations
 
-move_category_between_dsets.py
+prepare_dataset.py - resize images in a directory to match memory requirements for the target graphic card
 
-move_image_between_dsets.py
+filter_cats.py - remove images, annotations or categories from dataset based on various criteria
 
-extract_label_from_json.py
+prepare_ground_truth.py - export all dataset images and annotations in JSON COCO format
 
-prepare_dataset.py
+filter_deleted_images.py - remove redundant images from the dataset marked as delated in coco-annotator
 
-filter_cats.py
+replace_new_cat_labels.py - replace labels in a thematic field according to a dictionary specified in replace_labels.json file.
 
-prepare_ground_truth.py
+fix_image_paths.py - scan image paths in the database for insconsistency and fix if necessary
 
-filter_deleted_images.py
-
-replace_new_cat_labels.py
-
-fix_image_paths.py
-
-scan_database.py
-
-update_labels.py
+update_labels.py - change the labeling of the specific images or differentiate labels between two distinct thematic folders
