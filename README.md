@@ -1,4 +1,4 @@
-MIC 21 Dataset
+MIC21 image processing pipeline
 ========
 
 [MIC21 Dataset](https://dcl.bas.bg/MIC-21/dataset/) contains images from 130 thematic domains together with their ground truth annotations represented in MS COCO format. The structure of the dataset is as follows:
@@ -14,9 +14,9 @@ MIC 21 Dataset
 
 The data subdirectory for the respective thematic domain contains the images in jpg, jpeg or png format. The *_gt.json_ field is a COCO format _JSON_ file describing the polygonal object segments presented in images. 
 
-**Dataset processing scripts**
+**MIC21 image processing pipeline**
 
-The repository contains also some utility scripts which can help to interact with the dataset when it is imported in mongodb environment such as [coco-annotator](https://github.com/jsbroks/coco-annotator).
+The repository contains  some utility scripts which can help to interact with the dataset when it is imported in mongodb environment such as [coco-annotator](https://github.com/jsbroks/coco-annotator).
 
 add_new_cat_labels.py - insert for the newly added datasets
 
