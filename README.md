@@ -13,6 +13,7 @@ MIC21 image processing pipeline
 ```
 
 The data subdirectory for the respective thematic domain contains the images in jpg, jpeg or png format. The *_gt.json_ field is a COCO format _JSON_ file describing the polygonal object segments presented in images. 
+To accelerate the manual annotation, we have developed an image processing pipeline for object detection and object segmentation using pre-trained model structures aimed for the original COCO labeling domain.
 
 **MIC21 image processing pipeline**
 
